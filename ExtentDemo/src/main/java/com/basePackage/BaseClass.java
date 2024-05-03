@@ -63,11 +63,10 @@ public class BaseClass {
 		} catch (Exception e) {
 			e.getMessage();
 		}
-		// This new path for jenkinss //
+		// This new path for jenkins //
 		String newImageString = "http://localhost:8080/job/demo4/ws/ExtentDemo/ScreenShot/" + filename + "_"
 				+ dateName + ".png";
 		return newImageString;
-	}
 
 	public static String getCurrentTime() {
 		String currentDate = new SimpleDateFormat("yyyy-MM-dd-hhmmss").format(new Date());
